@@ -1,0 +1,9 @@
+name: QuestPlugin
+main: com.quests.QuestPlugin
+version: 1.0.0
+api-version: 1.21
+depend: [Vault]
+commands:
+  quest:
+    description: Assign or check quests
+    usage: /quest [stats|abandon]
